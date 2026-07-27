@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.aistudio.resumestudio.app",
+      "sha256_cert_fingerprints": [
+        "14:6D:E9:7C:15:21:43:72:0D:37:A1:AC:EF:7E:ED:AE:15:2B:64:98:C1:CE:66:30:A5:13:B9:AA:05:83:8B:1D"
+      ]
+    }
+  }
+]

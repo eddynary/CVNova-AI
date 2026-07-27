@@ -1,0 +1,13 @@
+{
+  "og:title": "Resume Studio - AI Powered Resume Builder & ATS Score",
+  "og:description": "Build high-scoring ATS resumes, cover letters, and executive portfolios in minutes with OpenAI & Gemini AI models.",
+  "og:type": "website",
+  "og:url": "https://resumestudio.app",
+  "og:image": "https://resumestudio.app/og-preview.png",
+  "og:site_name": "Resume Studio",
+  "twitter:card": "summary_large_image",
+  "twitter:site": "@ResumeStudioApp",
+  "twitter:title": "Resume Studio - AI Powered Resume Builder",
+  "twitter:description": "Build high-scoring ATS resumes with AI.",
+  "twitter:image": "https://resumestudio.app/twitter-card.png"
+}

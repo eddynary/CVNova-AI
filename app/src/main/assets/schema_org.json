@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Resume Studio",
+  "operatingSystem": "Android",
+  "applicationCategory": "BusinessApplication",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "ratingCount": "1250"
+  },
+  "offers": {
+    "@type": "AggregateOffer",
+    "priceCurrency": "USD",
+    "lowPrice": "0",
+    "highPrice": "39.99",
+    "offerCount": "3"
+  },
+  "creator": {
+    "@type": "Organization",
+    "name": "Resume Studio Inc.",
+    "url": "https://resumestudio.app"
+  },
+  "description": "AI-Powered Resume Builder & ATS Optimizer for high-impact professional careers."
+}

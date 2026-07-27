@@ -1,0 +1,60 @@
+{
+  "version": 2,
+  "name": "resume-studio-mobile",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Strict-Transport-Security",
+          "value": "max-age=31536000; includeSubDomains; preload"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "X-XSS-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        }
+      ]
+    },
+    {
+      "source": "/.well-known/assetlinks.json",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        }
+      ]
+    }
+  ],
+  "routes": [
+    {
+      "src": "/.well-known/assetlinks.json",
+      "dest": "/app/src/main/assets/assetlinks.json"
+    },
+    {
+      "src": "/sitemap.xml",
+      "dest": "/app/src/main/assets/sitemap.xml"
+    },
+    {
+      "src": "/robots.txt",
+      "dest": "/app/src/main/assets/robots.txt"
+    }
+  ]
+}

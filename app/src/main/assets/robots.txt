@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Allow: /builder
+Allow: /templates
+Allow: /pricing
+Allow: /ats-score
+Allow: /cover-letter
+Disallow: /admin/
+Disallow: /api/private/
+
+Sitemap: https://resumestudio.app/sitemap.xml

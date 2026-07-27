@@ -1,0 +1,6 @@
+{
+  "name": "Resume Studio",
+  "description": "Premium AI-powered resume builder inspired by Stripe, Linear, Notion, and Resume.io.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
